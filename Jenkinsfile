@@ -13,8 +13,8 @@ pipeline {
 
         stage('Build Docker Image') {
             steps {
-                sh 'whoami
-                docker build -t hello-app .'
+                sh '''whoami
+                docker build -t hello-app .'''
             }
         }
 
