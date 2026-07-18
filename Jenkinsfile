@@ -6,7 +6,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git 'https://github.com/<username>/hello-docker-jenkins.git'
+                git 'https://github.com/KolimiAkhila/hello-docker-jenkins.git'
             }
         }
 
